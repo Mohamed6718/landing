@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+
+  header {
+    background-color: #1a202c;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  header nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+  }
+
+  .hero {
+    background-color: #2d3748;
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #a0aec0;
+  }
+
+  .hero button {
+    background-color: #4299e1;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+
+  .hero button:hover {
+    background-color: #3182ce;
+  }
+
+  .info-section {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .info-section h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+  }
+
+  .info-section .info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .info-section .card {
+    border: 2px solid #4299e1;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    color: #4a5568;
+  }
+
+  .quote-section {
+    background-color: #e2e8f0;
+    padding: 3rem 1rem;
+    text-align: center;
+    font-style: italic;
+    color: #4a5568;
+  }
+
+  .quote-section p {
+    margin-bottom: 1rem;
+  }
+
+  .quote-section .author {
+    font-weight: bold;
+  }
+
+  .cta-section {
+    background-color: #4299e1;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+
+  .cta-section p {
+    margin-bottom: 1rem;
+  }
+
+  .cta-section button {
+    background-color: white;
+    color: #4299e1;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+
+  .cta-section button:hover {
+    background-color: #e2e8f0;
+  }
+
+  footer {
+    background-color: #1a202c;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  footer p {
+    font-size: 0.9rem;
+  }
